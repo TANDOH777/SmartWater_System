@@ -1,4 +1,7 @@
 package org.example.model;
 
-public class NodeType {
+public enum NodeType {
+    SOURCE,
+    JUNCTION,
+    COMMUNITY
 }

@@ -13,7 +13,9 @@ public class Node {
     private String name;
 
     @Enumerated(EnumType.STRING)
-    private NodeType type; // Can be SOURCE, JUNCTION, or COMMUNITY
+    private NodeType type;// Can be SOURCE, JUNCTION, or COMMUNITY
+
+
 
     private int population;
     private double demand; // How much water they need
@@ -21,10 +23,17 @@ public class Node {
     // Getters and Setters (standard Java methods to read/write data)
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
+
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
+
     public NodeType getType() { return type; }
     public void setType(NodeType type) { this.type = type; }
+
+    public int getPopulation() { return population; }
+    public void setPopulation(int population) { this.population = population; }
+
+    public double getDemand() { return demand; }
+    public void setDemand(double demand) { this.demand = demand; }
 }
 
-enum NodeType { SOURCE, JUNCTION, COMMUNITY }

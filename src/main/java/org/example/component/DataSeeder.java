@@ -1,6 +1,7 @@
 package org.example.component;
 
 import org.example.model.Node;
+import org.example.model.NodeType;
 import org.example.model.Pipe;
 import org.example.model.PipeStatus;
 import org.example.repository.NodeRepository;
