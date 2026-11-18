@@ -38,8 +38,3 @@ public class Pipe {
     public void setStatus(PipeStatus status) { this.status = status; }
 }
 
-enum PipeStatus {
-    OK,
-    LOW_PRESSURE,
-    BURST
-}
